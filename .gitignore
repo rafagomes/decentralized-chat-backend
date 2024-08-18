@@ -1,0 +1,76 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go build artifacts
+/bin
+/pkg
+/build
+*.out
+
+# Go modules
+go.sum
+vendor/
+
+# Tauri build artifacts (if applicable)
+src-tauri/target/
+src-tauri/.cargo/
+src-tauri/src/generated/
+src-tauri/node_modules/
+src-tauri/dist/
+src-tauri/build/
+
+# Flutter build artifacts (if applicable)
+flutter/bin/cache/
+flutter/.packages
+flutter/.flutter-plugins
+flutter/.dart_tool/
+build/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/.symlinks/
+
+# Logs
+*.log
+
+# Directories for virtual environments
+.venv/
+env/
+venv/
+
+# IDE specific settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# Backup files
+*.bak
+*.tmp
+
+# Mermaid files output
+*.png
+*.pdf
+*.svg
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node modules (if using Node.js with Tauri)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sensitive files (make sure to manage these appropriately)
+.env
